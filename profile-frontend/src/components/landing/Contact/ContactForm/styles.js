@@ -26,3 +26,21 @@ export const Wrapper = styled.div`
     font-weight: bold;
   }
 `;
+
+export const H2 = styled.h2`
+  display: flex;
+  position: relative;
+
+
+  ::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 120px;
+    height: 12px;
+    background-color: green;
+    z-index: -1;
+  }
+`;

@@ -3,11 +3,11 @@ import axios from 'axios';
 import { Formik, Form, FastField, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { Button, Input } from 'components/common';
-import { Error, Center, InputField, Wrapper } from './styles';
+import { Error, Center, InputField, Wrapper, H2 } from './styles';
 
 export default () => (
   <Wrapper>
-    <h2>Contact</h2>
+    <H2>Contact</H2>
     <Formik
       initialValues={{
         name: '',
